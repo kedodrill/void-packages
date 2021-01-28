@@ -1,6 +1,6 @@
 # Template file for 'kdeclarative'
 pkgname=kdeclarative
-version=5.76.0
+version=5.78.0
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF"
@@ -12,7 +12,7 @@ maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdeclarative"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname}-${version}.tar.xz"
-checksum=3dfaa271a97be48e72d5fff0dd3c3c1995be3b9e7d0451b197b79418d76c4ce3
+checksum=4759319fd1569d64f53d299f67c8564e75f687376f2774dadc7c53e45d2f4797
 
 kdeclarative-devel_package() {
 	short_desc+=" - development"

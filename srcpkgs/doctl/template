@@ -1,6 +1,6 @@
 # Template file for 'doctl'
 pkgname=doctl
-version=1.52.0
+version=1.55.0
 revision=1
 build_style=go
 go_import_path="github.com/digitalocean/doctl/cmd/doctl"
@@ -11,4 +11,4 @@ maintainer="Benjamín Albiñana <benalb@gmail.com>"
 license="Apache-2.0"
 homepage="https://github.com/digitalocean/doctl"
 distfiles="https://github.com/digitalocean/doctl/archive/v${version}.tar.gz"
-checksum=e4a0a08d5be545b9bb035ed377c0b7e7705e217bf55d4f4423d7dc8afb0a5819
+checksum=7141427c5a2c3b3043f076ef7789a1a526cd8b2fa8af94d33372bd775691e141
